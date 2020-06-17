@@ -9,22 +9,23 @@ In this repository, you will find:
 
 Any contribution is more than welcome. If you work with visually impaired people, we would be more than happy to hear from you, build new features based on your feedback and deliver our hardware to your institution. Please reach out to me by [email](mailito:mael.fabien@epfl.ch).
 
+## Getting started
+
+1. Install requirements:
+
+```bash
+pip install -r src/requirements.txt
+```
+
+2. Run the inference pipeline:
+
+```bash
+python src cv.py
+```
+
 ## Features
- 
-### a. Live OCR
- 
- A live OCR system built on top of OpenCV and Tesseract.
- 
- ![img](images/ocr.png)
 
-### b. Text to Speech
-
-### c. Speech to Text
-
-### d. Object detection
-
-### e. Scene description
-
-### f. Facial recognition
-
- 
+- Live object Detection using YoloV5
+- Angle estimation between camera and object
+- Producing sound based on type of object and angle in a 3D manner
+- Live OCR (to be integrated)
