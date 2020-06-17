@@ -20,7 +20,7 @@ pretrainedmodels==0.7.4
 pycocotools==2.0.1
 skimage==0.0
 thop==0.0.31-2005241907
-
+SoundCard
 
 # Nvidia Apex (optional) for mixed precision training --------------------------
 # git clone https://github.com/NVIDIA/apex && cd apex && pip install -v --no-cache-dir --global-option="--cpp_ext" --global-option="--cuda_ext" . --user && cd .. && rm -rf apex

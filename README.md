@@ -1,6 +1,8 @@
 # Scane4Me
 
-> Scane4Me is an open-source project for a smart wearable hardware module based on a RaspberryPi, that aims to help blind and visually impared people gain insights from the surrounding environment by just listening to it.
+> Scane4Me is an open-source project for a smart wearable hardware module based on a RaspberryPi, that aims to help blind and visually impared people gain insights from the surrounding environment by just listening to it. We detect objects, and generate the corresponding sounds, in the corresponding direction, with the corresponding volume, to let the person understand his/her environment.
+
+![](images/demo.png)
 
 In this repository, you will find:
 - `features`: a folder containing Jupyter Notebooks of individual features present in the module

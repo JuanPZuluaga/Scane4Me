@@ -2,20 +2,21 @@ import time
 import numpy as np
 from scipy.io.wavfile import read
 import sounddevice as sd
+import soundcard as sc
 
-fs_clock, clock = read("clock.wav")
+fs_clock, clock = read("src/sound_effects/clock.wav")
 clock = np.array(clock,dtype=float)
 clock /= clock.max()    
 clock *= 0.8
 clock = (clock[:,0] + clock[:,1]) / 2
 
-fs_cell, cell = read("cellphone.wav")
+fs_cell, cell = read("src/sound_effects/cellphone.wav")
 cell = np.array(cell,dtype=float)
 cell /= cell.max()    
 cell *= 0.8
 cell = (cell[:,0] + cell[:,1]) / 2
 
-fs_person, person = read("person.wav")
+fs_person, person = read("src/sound_effects/person.wav")
 person = np.array(person,dtype=float)
 person /= person.max()    
 person *= 0.8

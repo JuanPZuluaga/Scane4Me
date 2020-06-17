@@ -9,7 +9,7 @@ def getAngle(a, b, c):
 #import streamlit as st
 #st.header("YoloV5 in real time on CPU")
 
-weights = 'weights/yolov5s.pt'
+weights = 'src/weights/yolov5s.pt'
 source = "0" #'inference/images'
 out = 'inference/output'
 imgsz = 640
