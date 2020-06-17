@@ -20,7 +20,7 @@ pip install -r src/requirements.txt
 2. Run the inference pipeline:
 
 ```bash
-python src cv.py
+python src/cv.py
 ```
 
 ## Features
