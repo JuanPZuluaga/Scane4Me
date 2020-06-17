@@ -11,6 +11,16 @@ torchvision
 scipy
 tqdm
 git+https://github.com/cocodataset/cocoapi.git#subdirectory=PythonAPI
+scikit_image==0.15.0
+onnx==1.6.0
+sounddevice==0.3.14
+apex==0.9.10dev
+Pillow==7.1.2
+pretrainedmodels==0.7.4
+pycocotools==2.0.1
+skimage==0.0
+thop==0.0.31-2005241907
+
 
 # Nvidia Apex (optional) for mixed precision training --------------------------
 # git clone https://github.com/NVIDIA/apex && cd apex && pip install -v --no-cache-dir --global-option="--cpp_ext" --global-option="--cuda_ext" . --user && cd .. && rm -rf apex
