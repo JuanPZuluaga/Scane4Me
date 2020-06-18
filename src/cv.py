@@ -136,7 +136,8 @@ with torch.no_grad():
                         if names[int(cls)] == "cell phone":
                             run_sound("cellphone.wav", np.round(getAngle((centroid_x, centroid_y), (x1, y1), (x2, y2))))
                         elif names[int(cls)] == "person":
-                            run_sound("person.wav", np.round(getAngle((centroid_x, centroid_y), (x1, y1), (x2, y2))))
+                            continue
+                            #run_sound("person.wav", np.round(getAngle((centroid_x, centroid_y), (x1, y1), (x2, y2))))
                         elif names[int(cls)] == "clock":
                             run_sound("clock.wav", np.round(getAngle((centroid_x, centroid_y), (x1, y1), (x2, y2))))
 
