@@ -1,4 +1,4 @@
-# Scane4Me
+# S-Cane4Me
 
 S-Cane4Me is a smart wearable device, strapped around the chest, and equipped with a camera, able to provide real-time information on the surrounding environment of a person through Audio Augmented Reality. Similarly to the way we easily identify the position of whistling birds, we aim to scan in real-time the surrounding environment and produce directional sounds (through audio AR) in the earphones connected to the device. End-users would, therefore, be able to map and understand their environment. A sketch of our first prototype is presented in Figure 1.
 
